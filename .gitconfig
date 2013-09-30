@@ -1,4 +1,6 @@
 [alias]
+	# hist from Dan
+	hist = log --graph --pretty=format:\"%Cgreen %t %Cblue %ar %Creset %s %Cred [%an]\"
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 	# View the current working tree status using the short format
@@ -40,6 +42,9 @@
 	# [default] space-before-tab: looks for spaces before tabs at the beginning of
 	# a line
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+
+	# Use sublime as default editor
+	editor = "subl"
 
 [color]
 	# Use colors in Git commands that are capable of colored output when
