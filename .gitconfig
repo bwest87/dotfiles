@@ -9,14 +9,10 @@
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
 	# `git di $number` shows the diff between the state `$number` revisions ago and the current state
 	di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
-	# Pull in remote changes for the current repository and all its submodules
-	p = !"git pull; git submodule foreach git pull origin master"
 	# Add
 	a = add
 	# Commit
-	c = commit
-	# Commit all changes
-	ca = !git add -A && git commit -av
+	c = commit --verbose
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 	# Show verbose output about tags, branches or remotes
@@ -44,7 +40,7 @@
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
 
 	# Use sublime as default editor
-	editor = "subl"
+	editor = "vim"
 
 [color]
 	# Use colors in Git commands that are capable of colored output when
