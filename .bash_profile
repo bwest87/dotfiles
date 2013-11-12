@@ -1,6 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
+# export node path
+export NODE_PATH="/usr/local/lib/node_modules"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -40,3 +43,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Source Git Autocomplete Script
 source ~/.git-completion.sh
+
+# Source nvm scripts
+source ~/.nvm/nvm.sh
