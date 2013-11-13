@@ -91,4 +91,9 @@
     insteadOf = "gist:"
 
 [push]
-    default = matching
+    default = current
+[user]
+    name = Gregory Hilkert
+    email = EpiphanyMachine@gmail.com
+[pull]
+    default = current
