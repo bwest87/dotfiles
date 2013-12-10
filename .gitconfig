@@ -20,6 +20,12 @@
     # Commit
     c = commit --verbose
 
+    # Merge
+    m = merge --no-ff
+
+    # Rebase
+    r = rebase
+
     # Switch to a branch, creating it if necessary
     co = checkout
 
