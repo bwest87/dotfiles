@@ -82,9 +82,5 @@
     "white"         : true,      // true: Check against strict whitespace and indentation rules
 
     // Custom Globals
-    "globals"       : {         // additional predefined global variables
-        "$": true,
-        "_": true
-    },
-    "predef"        : [ "require", "define" ]
+    "predef"        : [ "_" , "$" ,"require", "define", "before", "beforeEach", "afterEach", "describe", "it", "only", "xit", "expect" ]
 }
