@@ -1,6 +1,3 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH"
-
 # export node path
 export NODE_PATH="/usr/local/lib/node_modules"
 
