@@ -1,14 +1,12 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"detect_indentation": false,
-	"font_size": 14,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Nil.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"use_simple_full_screen": false,
-    "word_wrap": false
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "detect_indentation": false,
+    "font_size": 16,
+    "highlight_modified_tabs": true,
+    "ignored_packages": ["Vintage"],
+    "theme": "Nil.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "use_simple_full_screen": false,
+    "word_wrap": false,
+    "index_exclude_patterns": [""]
 }
