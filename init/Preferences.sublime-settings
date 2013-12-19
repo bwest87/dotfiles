@@ -18,8 +18,7 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		"node_modules",
-		"dist"
+		"node_modules"
 	],
 	"font_size": 12,
 	"highlight_modified_tabs": true,
