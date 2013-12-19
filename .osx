@@ -431,19 +431,11 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # # Disable radio stations in iTunes
 # defaults write com.apple.iTunes disableRadio -bool true
 
-<<<<<<< HEAD
 # # Make ⌘ + F focus the search input in iTunes
 # # To use these commands in another language, browse iTunes’s package contents,
 # # open `Contents/Resources/your-language.lproj/Localizable.strings`, and look
 # # for `kHiddenMenuItemTargetSearch`.
 # defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Field" -string "@F"
-=======
-# Make ⌘ + F focus the search input in iTunes
-# To use these commands in another language, browse iTunes’s package contents,
-# open `Contents/Resources/your-language.lproj/Localizable.strings`, and look
-# for `kHiddenMenuItemTargetSearch`.
-defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Field" -string "@F"
->>>>>>> 7669dfd... .osx: Consistently specify the type for `dict-add` actions
 
 ###############################################################################
 # Mail                                                                        #
@@ -456,13 +448,8 @@ defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Fi
 # # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 # defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
-<<<<<<< HEAD
-# # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
-# defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\\U21a9"
-=======
 # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
-defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" -string "@\\U21a9"
->>>>>>> 7669dfd... .osx: Consistently specify the type for `dict-add` actions
+# defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" -string "@\\U21a9"
 
 ###############################################################################
 # Spotlight                                                                   #
