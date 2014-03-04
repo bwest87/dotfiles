@@ -32,21 +32,22 @@ install josegonzalez/homebrew-php/php55
 
 # Install other useful binaries
 install ack
-install pv
+#install pv
 #install exiv2
 install git
 install imagemagick --with-webp
 install lynx
-install node
+install nvm
+#install node
 install pigz
-install rename
-install rhino
+#install rename
+#install rhino
 install tree
 install webkit2png
-install zopfli
+#install zopfli
 install p7zip
 
-install homebrew/versions/lua52
+#install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
 cleanup
