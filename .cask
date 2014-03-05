@@ -1,24 +1,35 @@
 # Install native apps
 brew tap phinze/homebrew-cask
+brew tap caskroom/versions
 brew install brew-cask
+brew cask alfred link
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask alfred
+installcask bettertouchtool
+installcask dash
+installcask flash
+installcask google-music
+installcask google-hangouts
+
 installcask dropbox
+installcask insync
+
+installcask iterm2-beta
 installcask google-chrome-beta
-installcask google-chrome-canary
+installcask sourcetree
+installcask virtualbox
+installcask macvim
+installcask virtualbox
+
+# no st3 support yet
+#installcask sublime-text
+
+installcask vlc
 installcask imagealpha
 installcask imageoptim
-installcask iterm2
-installcask macvim
-#installcask miro-video-converter
-installcask sublime-text
-installcask sourcetree
+installcask miro-video-converter
 installcask the-unarchiver
-#installcask tor-browser
-#installcask transmission
-#installcask ukelele
-installcask virtualbox
-installcask vlc
