@@ -1,3 +1,3 @@
 {
-    "cmd": ["/Users/brandcast/.nvm/v0.10.21/bin/node", "$file"]
+    "cmd": ["node", "$file"]
 }
