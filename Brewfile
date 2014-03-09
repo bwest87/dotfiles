@@ -37,7 +37,6 @@ install ack
 install git
 install imagemagick --with-webp
 install lynx
-install nvm
 #install node
 install pigz
 #install rename

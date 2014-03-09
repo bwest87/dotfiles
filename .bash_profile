@@ -40,6 +40,3 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Source Git Autocomplete Script
 source ~/.git-completion.sh
-
-# Source nvm scripts
-source ~/.nvm/nvm.sh
