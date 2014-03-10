@@ -37,7 +37,8 @@ install ack
 install git
 install imagemagick --with-webp
 install lynx
-#install node
+install node
+install phantomjs
 install pigz
 #install rename
 #install rhino
