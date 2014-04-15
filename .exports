@@ -23,3 +23,6 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Docker Configuration
+export DOCKER_HOST=tcp://127.0.0.1:4243
