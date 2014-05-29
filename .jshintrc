@@ -26,6 +26,7 @@
     "undef"         : true,      // true: Require all non-global variables to be declared (prevents global leaks)
     "unused"        : true,      // true: Require all defined variables be used
     "strict"        : true,      // true: Requires all functions run in ES5 Strict Mode
+    "globalstrict"  : true,      // true: Allow global "use strict" (also enables 'strict')
     "trailing"      : true,      // true: Prohibit trailing whitespaces
     "maxparams"     : false,     // {int} Max number of formal params allowed per function
     "maxdepth"      : false,     // {int} Max depth of nested blocks (within functions)
@@ -82,5 +83,5 @@
     "white"         : true,      // true: Check against strict whitespace and indentation rules
 
     // Custom Globals
-    "predef"        : [ "_" , "$" ,"require", "define", "before", "beforeEach", "afterEach", "describe", "it", "only", "xit", "expect" ]
+    "predef"        : [ "_" , "$", "angular", "require", "define", "before", "beforeEach", "afterEach", "describe", "it", "only", "xit", "expect" ]
 }

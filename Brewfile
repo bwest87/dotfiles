@@ -31,6 +31,8 @@ install josegonzalez/php/php55
 #install homebrew/dupes/screen
 
 # Install other useful binaries
+install redis
+install postgres
 install ack
 #install pv
 #install exiv2
