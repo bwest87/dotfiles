@@ -34,6 +34,9 @@
     branches = branch -a
     remotes = remote -v
 
+    # remove all branches merged into master
+    pruneall = !"git checkout master && git fetch --all -p && git branch --merged master | grep -v \"*\" | xargs -n 1 git branch -d"
+
     # Credit an author on the latest commit
     credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
 
@@ -107,7 +110,7 @@
     email = EpiphanyMachine@gmail.com
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path = 
+    path =
 [mergetool "sourcetree"]
     cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
