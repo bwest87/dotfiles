@@ -37,6 +37,7 @@ install ack
 #install pv
 #install exiv2
 install git
+install hub
 install imagemagick --with-webp
 install lynx
 install node

@@ -16,6 +16,9 @@ alias h="history"
 alias j="jobs"
 alias startguard="export BUNDLE_GEMFILE=../../Gemfile;bundle exec guard"
 
+# Hub as Git
+eval "$(hub alias -s)"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
