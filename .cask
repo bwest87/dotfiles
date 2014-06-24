@@ -23,7 +23,6 @@ installcask google-chrome-beta
 installcask sourcetree
 installcask virtualbox
 installcask macvim
-installcask virtualbox
 
 # no st3 support yet
 #installcask sublime-text
