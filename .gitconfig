@@ -35,7 +35,7 @@
     remotes = remote -v
 
     # remove all branches merged into master
-    pruneall = !"git checkout master && git fetch --all -p && git branch --merged master | grep -v \"*\" | xargs -n 1 git branch -d"
+    pruneall = !"git checkout master && git pull origin master && git fetch --all -p && git branch --merged master | grep -v \"*\" | xargs -n 1 git branch -d"
 
     # Credit an author on the latest commit
     credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
