@@ -33,7 +33,6 @@ install narwhal
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
-install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install redis
@@ -58,7 +57,6 @@ install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-install xpdf
 #install zopfli
 install p7zip
 

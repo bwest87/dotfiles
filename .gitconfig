@@ -126,8 +126,8 @@
     insteadOf = "gist:"
 
 [user]
-    name = Gregory Hilkert
-    email = EpiphanyMachine@gmail.com
+    name = Blake West
+    email = bwest87@gmail.com
 [mergetool "sourcetree"]
     cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
