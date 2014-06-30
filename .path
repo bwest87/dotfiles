@@ -7,5 +7,6 @@ export PATH="$HOME/awseb:$PATH"
 export PATH="$HOME/utils:$PATH"
 export PATH="$HOME/.node/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH=$HOME/npm/bin:$PATH
 export NODE_PATH="$NODE_PATH:/Users/owner/.node/lib/node_modules"
 export ANDROID_HOME="/usr/local/opt/android-sdk"
