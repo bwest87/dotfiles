@@ -50,5 +50,12 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Source Git Autocomplete Script
 source ~/.git-completion.sh
 
+alias gs="git status"
+alias gc="git commit -v"
+alias gco='git checkout'
+alias ga='git add'
+alias gd='git diff --color'
+alias grh='git reset HEAD'
+
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
